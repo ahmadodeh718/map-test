@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  .leaflet-control {
+    display: flex;
+    align-items: center;
+  }
+  .MuiButton-root {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    margin: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.75;
+    text-transform: uppercase;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgba(66, 70, 73, 0.5);
+    color: rgb(66, 70, 73);
+    background-color: rgb(255, 255, 255) !important;
+    padding: 5.5px;
+    min-width: 0px;
+    border-radius: 400px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px,
+      rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+    margin-inline-end: 17px;
+    &.MuiButtonGroup-firstButton {
+      margin-inline-end: 0;
+    }
+    .MuiSvgIcon-root {
+      user-select: none;
+      width: 1em;
+      height: 1em;
+      display: inline-block;
+      fill: currentcolor;
+      flex-shrink: 0;
+      transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      font-size: 28px;
+    }
+  }
+  .MuiButtonGroup-root {
+    .MuiButton-root {
+      padding: 4px 8px;
+    }
+  }
+  .leaflet-control-zoom-fullscreen {
+    display: none;
+  }
+}
