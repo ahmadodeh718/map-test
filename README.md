@@ -1,7 +1,7 @@
 # Map Test
 
 
-## The structure of the projects
+## The structure of the project
 
 ```
 components
@@ -18,6 +18,10 @@ components
 ```
 
 <br><br>
+
+
+You can preview the [Live Demo](https://ahmadodeh718.github.io/map-test-demo)
+
 
 In the project directory, you can run:
 
